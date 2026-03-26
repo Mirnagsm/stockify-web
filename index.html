@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockify - Control de Inventario Inteligente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1A1A1A 0%, #333333 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-5xl font-bold leading-tight mb-6">Stockify: Tu Inventario en el Bolsillo</h1>
+                <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                    Gestiona entradas, salidas, traslados y analítica de ventas semanal con la herramienta más rápida y elegante para tu negocio.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#play-store" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition duration-300 flex items-center">
+                        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M5.23 2.062c.241-.225.583-.34 1.012-.34.343 0 .733.076 1.155.23l12.44 6.882a1.86 1.86 0 0 1 0 3.328l-12.44 6.884a2.9 2.9 0 0 1-1.155.23 1.34 1.34 0 0 1-1.012-.34l12.42-10.435L5.23 2.062zm.3 1.139L16.485 12 5.53 20.8zM4.322 1.48C4.12 1.543 4.01 1.761 4.01 2.067v19.866c0 .306.11.524.312.587l11.458-10.52L4.322 1.48z"/></svg>
+                        Próximamente en Play Store
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <!-- App Mockup Placeholder -->
+                <div class="relative bg-white p-4 rounded-[3rem] shadow-2xl border-8 border-gray-800 w-64 h-[500px] overflow-hidden">
+                    <div class="bg-gray-100 flex items-center justify-center h-full text-gray-400 font-bold">
+                        Stockify UI
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-16">Características Principales</h2>
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+                <div class="bg-blue-100 text-blue-600 p-4 rounded-xl inline-block mb-6">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Entradas y Salidas</h3>
+                <p class="text-gray-600">Registra movimientos de stock en segundos con una interfaz optimizada para velocidad.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+                <div class="bg-green-100 text-green-600 p-4 rounded-xl inline-block mb-6">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Analítica Semanal</h3>
+                <p class="text-gray-600">Descubre qué productos tienen mayor y menor rotación cada semana para optimizar tu inversión.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+                <div class="bg-purple-100 text-purple-600 p-4 rounded-xl inline-block mb-6">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m4 0h1m-7 4h12a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Multimoneda</h3>
+                <p class="text-gray-600">Soporte nativo para conversión instantánea entre USD, EUR y VES con tasas del día.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section id="privacy" class="py-20 px-6 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10">Política de Privacidad</h2>
+            <div class="prose prose-blue max-w-none text-gray-700 leading-relaxed space-y-4">
+                <p class="font-semibold italic">Última actualización: 26 de Marzo, 2026</p>
+                
+                <h3 class="text-xl font-bold mt-8">Responsable del Tratamiento</h3>
+                <p>Stockify ("nosotros", "nuestro" o "la Aplicación") es una herramienta de gestión de inventario. La seguridad de tus datos es nuestra prioridad.</p>
+                
+                <h3 class="text-xl font-bold mt-8">Datos Recopilados</h3>
+                <p>Recopilamos datos mínimos necesarios para el funcionamiento de la app, incluyendo:</p>
+                <ul class="list-disc pl-6">
+                    <li>Nombre y correo electrónico para la creación de cuenta.</li>
+                    <li>Datos de inventario y transacciones que tú registres voluntariamente.</li>
+                    <li>Información técnica básica del dispositivo para resolución de errores.</li>
+                </ul>
+
+                <h3 class="text-xl font-bold mt-8">Uso de los Datos</h3>
+                <p>Tus datos se utilizan exclusivamente para:</p>
+                <ul class="list-disc pl-6">
+                    <li>Permitir el acceso y sincronización entre dispositivos de tu equipo.</li>
+                    <li>Generar los reportes de analítica de rotación solicitados.</li>
+                    <li>Mejorar la estabilidad técnica de la aplicación.</li>
+                </ul>
+
+                <h3 class="text-xl font-bold mt-8">Tus Derechos</h3>
+                <p>Puedes solicitar la eliminación permanente de tu cuenta y todos sus datos asociados directamente desde el menú de Ajustes > Eliminar Datos de la aplicación en cualquier momento.</p>
+                
+                <p class="mt-10 pt-6 border-t border-gray-200">Para cualquier consulta sobre privacidad, por favor contáctanos a través de la sección de soporte en la app.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-500 py-12 px-6 text-center">
+        <div class="max-w-6xl mx-auto">
+            <p class="mb-4">&copy; 2026 Stockify. Todos los derechos reservados.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="#privacy" class="hover:text-white transition">Privacidad</a>
+                <span class="text-gray-700">|</span>
+                <p>Soporte: Por favor escribir a través de la App</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
